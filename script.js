@@ -29,8 +29,12 @@ const translations = {
     about: "About",
     apply: "Apply now",
     eyebrow: "LEARN · CONNECT · GROW",
-    heroCopy: "Practical affiliate marketing guidance for creators, publishers, and experienced traffic partners. Build your skills, understand your options, and start a conversation."
+    heroCopy: "Practical affiliate marketing guidance for creators, publishers, and experienced traffic partners. Build your skills, understand your options, and start a conversation.",
+    academyTitle: "THE AFFILIATE ACADEMY",
+    academyHeading: "Learn the fundamentals.",
+    academySubheading: "Make informed moves."
   },
+
   fr: {
     academy: "Académie",
     traffic: "Sources de trafic",
@@ -38,8 +42,12 @@ const translations = {
     about: "À propos",
     apply: "Postuler",
     eyebrow: "APPRENDRE · CONNECTER · GRANDIR",
-    heroCopy: "Des conseils pratiques en marketing d'affiliation pour les créateurs, éditeurs et partenaires expérimentés."
+    heroCopy: "Des conseils pratiques en marketing d'affiliation pour les créateurs, éditeurs et partenaires expérimentés.",
+    academyTitle: "L'ACADÉMIE D'AFFILIATION",
+    academyHeading: "Apprenez les fondamentaux.",
+    academySubheading: "Faites des choix éclairés."
   },
+
   ar: {
     academy: "الأكاديمية",
     traffic: "مصادر الزيارات",
@@ -47,8 +55,12 @@ const translations = {
     about: "من نحن",
     apply: "قدّم الآن",
     eyebrow: "تعلّم · تواصل · تطوّر",
-    heroCopy: "إرشادات عملية في التسويق بالعمولة لصناع المحتوى والناشرين وشركاء التسويق."
+    heroCopy: "إرشادات عملية في التسويق بالعمولة لصناع المحتوى والناشرين وشركاء التسويق.",
+    academyTitle: "أكاديمية التسويق بالعمولة",
+    academyHeading: "تعلّم الأساسيات.",
+    academySubheading: "اتخذ قرارات مدروسة."
   },
+
   de: {
     academy: "Akademie",
     traffic: "Traffic-Quellen",
@@ -56,10 +68,12 @@ const translations = {
     about: "Über uns",
     apply: "Jetzt bewerben",
     eyebrow: "LERNEN · VERNETZEN · WACHSEN",
-    heroCopy: "Praktische Affiliate-Marketing-Tipps für Creator, Publisher und erfahrene Traffic-Partner."
+    heroCopy: "Praktische Affiliate-Marketing-Tipps für Creator, Publisher und erfahrene Traffic-Partner.",
+    academyTitle: "DIE AFFILIATE-AKADEMIE",
+    academyHeading: "Lerne die Grundlagen.",
+    academySubheading: "Triff fundierte Entscheidungen."
   }
 };
-
 function changeLanguage(lang) {
   const t = translations[lang];
   if (!t) return;
