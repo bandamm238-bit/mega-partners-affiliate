@@ -145,6 +145,19 @@ function changeLanguage(lang) {
   document.querySelector('[data-i18n="academyTitle"]').textContent = t.academyTitle;
   document.querySelector('[data-i18n="academyHeading"]').textContent = t.academyHeading;
   document.querySelector('[data-i18n="academySubheading"]').textContent = t.academySubheading;
+  document.querySelector('[data-i18n="academyDescription"]').textContent = t.academyDescription;
+  document.querySelector('[data-i18n="academyCard1Kicker"]').textContent = t.academyCard1Kicker;
+  document.querySelector('[data-i18n="academyCard1Title"]').textContent = t.academyCard1Title;
+  document.querySelector('[data-i18n="academyCard1Text"]').textContent = t.academyCard1Text;
+  document.querySelector('[data-i18n="academyCard1Link"]').textContent = t.academyCard1Link;
+  document.querySelector('[data-i18n="academyCard2Kicker"]').textContent = t.academyCard2Kicker;
+  document.querySelector('[data-i18n="academyCard2Title"]').textContent = t.academyCard2Title;
+  document.querySelector('[data-i18n="academyCard2Text"]').textContent = t.academyCard2Text;
+  document.querySelector('[data-i18n="academyCard2Link"]').textContent = t.academyCard2Link;
+  document.querySelector('[data-i18n="academyCard3Kicker"]').textContent = t.academyCard3Kicker;
+  document.querySelector('[data-i18n="academyCard3Title"]').textContent = t.academyCard3Title;
+  document.querySelector('[data-i18n="academyCard3Text"]').textContent = t.academyCard3Text;
+  document.querySelector('[data-i18n="academyCard3Link"]').textContent = t.academyCard3Link;
   localStorage.setItem("siteLanguage", lang);
 }
 
