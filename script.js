@@ -90,7 +90,9 @@ function changeLanguage(lang) {
 
   document.querySelector(".hero .eyebrow").textContent = t.eyebrow;
   document.querySelector(".hero-copy").textContent = t.heroCopy;
-
+  document.querySelector('[data-i18n="academyTitle"]').textContent = t.academyTitle;
+  document.querySelector('[data-i18n="academyHeading"]').textContent = t.academyHeading;
+  document.querySelector('[data-i18n="academySubheading"]').textContent = t.academySubheading;
   localStorage.setItem("siteLanguage", lang);
 }
 
