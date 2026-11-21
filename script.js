@@ -436,6 +436,26 @@ function changeLanguage(lang) {
   document.querySelector('[data-i18n="proPoint2"]').textContent = t.proPoint2;
   document.querySelector('[data-i18n="proPoint3"]').textContent = t.proPoint3;
   document.querySelector('[data-i18n="proButton"]').textContent = t.proButton;
+  document.querySelector('[data-i18n="applyEyebrow"]').textContent = t.applyEyebrow;
+  document.querySelector('[data-i18n="applyHeading"]').textContent = t.applyHeading;
+  document.querySelector('[data-i18n="applyDescription"]').textContent = t.applyDescription;
+  document.querySelector('[data-i18n="applyPoint1"]').textContent = t.applyPoint1;
+  document.querySelector('[data-i18n="applyPoint2"]').textContent = t.applyPoint2;
+  document.querySelector('[data-i18n="applyPoint3"]').textContent = t.applyPoint3;
+  document.querySelector('[data-i18n="formHeading"]').textContent = t.formHeading;
+  document.querySelector('[data-i18n="formRequired"]').textContent = t.formRequired;
+  document.querySelector('[data-i18n="formName"]').textContent = t.formName;
+  document.querySelector('[data-i18n="formContact"]').textContent = t.formContact;
+  document.querySelector('[data-i18n="formCountry"]').textContent = t.formCountry;
+  document.querySelector('[data-i18n="formExperience"]').textContent = t.formExperience;
+  document.querySelector('[data-i18n="formTraffic"]').textContent = t.formTraffic;
+  document.querySelector('[data-i18n="formDetails"]').textContent = t.formDetails;
+  document.querySelector('[data-i18n="formSubmit"]').textContent = t.formSubmit;
+  document.querySelector('[data-i18n="formDisclaimer"]').textContent = t.formDisclaimer;
+
+  document.querySelectorAll("[data-i18n-placeholder]").forEach(el => {
+    el.placeholder = t[el.dataset.i18nPlaceholder];
+  });
   localStorage.setItem("siteLanguage", lang);
 }
 
