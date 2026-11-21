@@ -291,6 +291,23 @@ function changeLanguage(lang) {
   document.querySelector('[data-i18n="trafficPaidTitle"]').textContent = t.trafficPaidTitle;
   document.querySelector('[data-i18n="trafficPaidText"]').textContent = t.trafficPaidText;
   document.querySelector('[data-i18n="trafficNote"]').textContent = t.trafficNote;
+  document.querySelector('[data-i18n="partnersTitle"]').textContent = t.partnersTitle;
+  document.querySelector('[data-i18n="partnersHeading"]').textContent = t.partnersHeading;
+  document.querySelector('[data-i18n="partnersSubheading"]').textContent = t.partnersSubheading;
+  document.querySelector('[data-i18n="beginnerTag"]').textContent = t.beginnerTag;
+  document.querySelector('[data-i18n="beginnerTitle"]').textContent = t.beginnerTitle;
+  document.querySelector('[data-i18n="beginnerDescription"]').textContent = t.beginnerDescription;
+  document.querySelector('[data-i18n="beginnerPoint1"]').textContent = t.beginnerPoint1;
+  document.querySelector('[data-i18n="beginnerPoint2"]').textContent = t.beginnerPoint2;
+  document.querySelector('[data-i18n="beginnerPoint3"]').textContent = t.beginnerPoint3;
+  document.querySelector('[data-i18n="beginnerButton"]').textContent = t.beginnerButton;
+  document.querySelector('[data-i18n="proTag"]').textContent = t.proTag;
+  document.querySelector('[data-i18n="proTitle"]').textContent = t.proTitle;
+  document.querySelector('[data-i18n="proDescription"]').textContent = t.proDescription;
+  document.querySelector('[data-i18n="proPoint1"]').textContent = t.proPoint1;
+  document.querySelector('[data-i18n="proPoint2"]').textContent = t.proPoint2;
+  document.querySelector('[data-i18n="proPoint3"]').textContent = t.proPoint3;
+  document.querySelector('[data-i18n="proButton"]').textContent = t.proButton;
   localStorage.setItem("siteLanguage", lang);
 }
 
