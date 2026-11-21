@@ -494,6 +494,24 @@ function changeLanguage(lang) {
 
   document.querySelector(".hero .eyebrow").textContent = t.eyebrow;
   document.querySelector(".hero-copy").textContent = t.heroCopy;
+  document.querySelector('[data-i18n="heroHeading"]').textContent = t.heroHeading;
+  document.querySelector('[data-i18n="heroHighlight"]').textContent = t.heroHighlight;
+  document.querySelector('[data-i18n="heroButton1"]').textContent = t.heroButton1;
+  document.querySelector('[data-i18n="heroButton2"]').textContent = t.heroButton2;
+  document.querySelector('[data-i18n="heroProofTitle"]').textContent = t.heroProofTitle;
+  document.querySelector('[data-i18n="heroProofText"]').textContent = t.heroProofText;
+
+  document.querySelector('[data-i18n="dashTitle"]').textContent = t.dashTitle;
+  document.querySelector('[data-i18n="dashLive"]').textContent = t.dashLive;
+  document.querySelector('[data-i18n="dashLabel"]').textContent = t.dashLabel;
+  document.querySelector('[data-i18n="dashLearn"]').textContent = t.dashLearn;
+  document.querySelector('[data-i18n="dashConnect"]').textContent = t.dashConnect;
+  document.querySelector('[data-i18n="dashImprove"]').textContent = t.dashImprove;
+
+  document.querySelector('[data-i18n="floatTitle1"]').textContent = t.floatTitle1;
+  document.querySelector('[data-i18n="floatText1"]').textContent = t.floatText1;
+  document.querySelector('[data-i18n="floatTitle2"]').textContent = t.floatTitle2;
+  document.querySelector('[data-i18n="floatText2"]').textContent = t.floatText2;
   document.querySelector('[data-i18n="academyTitle"]').textContent = t.academyTitle;
   document.querySelector('[data-i18n="academyHeading"]').textContent = t.academyHeading;
   document.querySelector('[data-i18n="academySubheading"]').textContent = t.academySubheading;
