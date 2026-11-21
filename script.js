@@ -58,7 +58,24 @@ const translations = {
     trafficSeoText: "Websites, blogs, and search-led content.",
     trafficPaidTitle: "Paid media",
     trafficPaidText: "Campaign planning, testing, and responsible optimization.",
-    trafficNote: "Always check platform rules, local laws, advertising requirements, and the applicable partner-program terms before promoting any offer."
+    trafficNote: "Always check platform rules, local laws, advertising requirements, and the applicable partner-program terms before promoting any offer.",
+    partnersTitle: "PARTNERSHIP PATHS",
+    partnersHeading: "Wherever you are",
+    partnersSubheading: "in your journey.",
+    beginnerTag: "NEW TO AFFILIATE MARKETING",
+    beginnerTitle: "I'm getting started",
+    beginnerDescription: "Build a foundation before choosing a traffic channel or applying to a program.",
+    beginnerPoint1: "Understand the basics",
+    beginnerPoint2: "Choose a suitable channel",
+    beginnerPoint3: "Learn about compliance",
+    beginnerButton: "Start learning",
+    proTag: "ALREADY HAVE TRAFFIC",
+    proTitle: "I'm an experienced partner",
+    proDescription: "Share your traffic profile and discuss whether a partnership could be a fit.",
+    proPoint1: "Present your channels",
+    proPoint2: "Share audience and geo details",
+    proPoint3: "Discuss terms and next steps",
+    proButton: "Discuss a partnership"
   },
 
   fr: {
@@ -97,7 +114,24 @@ const translations = {
     trafficSeoText: "Sites web, blogs et contenu optimisé pour les moteurs de recherche.",
     trafficPaidTitle: "Publicité payante",
     trafficPaidText: "Planification des campagnes, tests et optimisation responsable.",
-    trafficNote: "Vérifiez toujours les règles des plateformes, les lois locales, les exigences publicitaires et les conditions du programme partenaire avant toute promotion."
+    trafficNote: "Vérifiez toujours les règles des plateformes, les lois locales, les exigences publicitaires et les conditions du programme partenaire avant toute promotion.",
+    partnersTitle: "PARCOURS DE PARTENARIAT",
+    partnersHeading: "Où que vous soyez",
+    partnersSubheading: "dans votre parcours.",
+    beginnerTag: "DÉBUTANT EN MARKETING D'AFFILIATION",
+    beginnerTitle: "Je débute",
+    beginnerDescription: "Construisez de bonnes bases avant de choisir une source de trafic ou de rejoindre un programme.",
+    beginnerPoint1: "Comprendre les bases",
+    beginnerPoint2: "Choisir un canal adapté",
+    beginnerPoint3: "Connaître les règles de conformité",
+    beginnerButton: "Commencer à apprendre",
+    proTag: "VOUS AVEZ DÉJÀ DU TRAFIC",
+    proTitle: "Je suis un partenaire expérimenté",
+    proDescription: "Présentez vos sources de trafic et discutons d'une éventuelle collaboration.",
+    proPoint1: "Présenter vos canaux",
+    proPoint2: "Partager les informations sur votre audience et vos GEO",
+    proPoint3: "Discuter des conditions et des prochaines étapes",
+    proButton: "Discuter d'un partenariat"
   },
 
   ar: {
@@ -136,7 +170,24 @@ const translations = {
     trafficSeoText: "المواقع الإلكترونية والمدونات والمحتوى الموجه لمحركات البحث.",
     trafficPaidTitle: "الإعلانات المدفوعة",
     trafficPaidText: "تخطيط الحملات واختبارها وتحسينها بمسؤولية.",
-    trafficNote: "تحقق دائماً من قواعد المنصات والقوانين المحلية ومتطلبات الإعلان وشروط برنامج الشراكة المعمول بها قبل الترويج لأي عرض."
+    trafficNote: "تحقق دائماً من قواعد المنصات والقوانين المحلية ومتطلبات الإعلان وشروط برنامج الشراكة المعمول بها قبل الترويج لأي عرض.",
+    partnersTitle: "مسارات الشراكة",
+    partnersHeading: "أينما كنت",
+    partnersSubheading: "في رحلتك.",
+    beginnerTag: "جديد في التسويق بالعمولة",
+    beginnerTitle: "أريد البدء",
+    beginnerDescription: "ابنِ أساساً جيداً قبل اختيار مصدر الزيارات أو التقدم إلى برنامج شراكة.",
+    beginnerPoint1: "فهم الأساسيات",
+    beginnerPoint2: "اختيار القناة المناسبة",
+    beginnerPoint3: "التعرّف على قواعد الامتثال",
+    beginnerButton: "ابدأ التعلم",
+    proTag: "لديك زيارات بالفعل",
+    proTitle: "أنا شريك ذو خبرة",
+    proDescription: "شاركنا تفاصيل مصادر الزيارات لديك، ولنناقش مدى ملاءمة الشراكة.",
+    proPoint1: "عرض قنواتك",
+    proPoint2: "مشاركة تفاصيل الجمهور والمناطق الجغرافية",
+    proPoint3: "مناقشة الشروط والخطوات التالية",
+    proButton: "ناقش الشراكة"
   },
 
   de: {
@@ -175,7 +226,24 @@ const translations = {
     trafficSeoText: "Websites, Blogs und suchmaschinenorientierte Inhalte.",
     trafficPaidTitle: "Bezahlte Werbung",
     trafficPaidText: "Kampagnenplanung, Tests und verantwortungsvolle Optimierung.",
-    trafficNote: "Prüfe vor jeder Bewerbung eines Angebots stets die Plattformregeln, lokalen Gesetze, Werbeanforderungen und geltenden Partnerprogramm-Bedingungen."
+    trafficNote: "Prüfe vor jeder Bewerbung eines Angebots stets die Plattformregeln, lokalen Gesetze, Werbeanforderungen und geltenden Partnerprogramm-Bedingungen.",
+    partnersTitle: "PARTNERSCHAFTSWEGE",
+    partnersHeading: "Wo auch immer du",
+    partnersSubheading: "auf deinem Weg stehst.",
+    beginnerTag: "NEU IM AFFILIATE-MARKETING",
+    beginnerTitle: "Ich möchte anfangen",
+    beginnerDescription: "Schaffe eine Grundlage, bevor du einen Traffic-Kanal auswählst oder dich für ein Programm bewirbst.",
+    beginnerPoint1: "Die Grundlagen verstehen",
+    beginnerPoint2: "Einen passenden Kanal wählen",
+    beginnerPoint3: "Compliance-Anforderungen kennenlernen",
+    beginnerButton: "Jetzt lernen",
+    proTag: "DU HAST BEREITS TRAFFIC",
+    proTitle: "Ich bin ein erfahrener Partner",
+    proDescription: "Teile dein Traffic-Profil und bespreche, ob eine Partnerschaft passen könnte.",
+    proPoint1: "Deine Kanäle vorstellen",
+    proPoint2: "Informationen zu Zielgruppe und GEOs teilen",
+    proPoint3: "Bedingungen und nächste Schritte besprechen",
+    proButton: "Partnerschaft besprechen"
   }
 };
 function changeLanguage(lang) {
