@@ -210,6 +210,19 @@ function changeLanguage(lang) {
   document.querySelector('[data-i18n="academyCard3Title"]').textContent = t.academyCard3Title;
   document.querySelector('[data-i18n="academyCard3Text"]').textContent = t.academyCard3Text;
   document.querySelector('[data-i18n="academyCard3Link"]').textContent = t.academyCard3Link;
+  document.querySelector('[data-i18n="trafficTitle"]').textContent = t.trafficTitle;
+  document.querySelector('[data-i18n="trafficHeading"]').textContent = t.trafficHeading;
+  document.querySelector('[data-i18n="trafficSubheading"]').textContent = t.trafficSubheading;
+  document.querySelector('[data-i18n="trafficDescription"]').textContent = t.trafficDescription;
+  document.querySelector('[data-i18n="trafficVideoTitle"]').textContent = t.trafficVideoTitle;
+  document.querySelector('[data-i18n="trafficVideoText"]').textContent = t.trafficVideoText;
+  document.querySelector('[data-i18n="trafficCommunityTitle"]').textContent = t.trafficCommunityTitle;
+  document.querySelector('[data-i18n="trafficCommunityText"]').textContent = t.trafficCommunityText;
+  document.querySelector('[data-i18n="trafficSeoTitle"]').textContent = t.trafficSeoTitle;
+  document.querySelector('[data-i18n="trafficSeoText"]').textContent = t.trafficSeoText;
+  document.querySelector('[data-i18n="trafficPaidTitle"]').textContent = t.trafficPaidTitle;
+  document.querySelector('[data-i18n="trafficPaidText"]').textContent = t.trafficPaidText;
+  document.querySelector('[data-i18n="trafficNote"]').textContent = t.trafficNote;
   localStorage.setItem("siteLanguage", lang);
 }
 
