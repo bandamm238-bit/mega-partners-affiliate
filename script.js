@@ -452,6 +452,12 @@ function changeLanguage(lang) {
   document.querySelector('[data-i18n="formDetails"]').textContent = t.formDetails;
   document.querySelector('[data-i18n="formSubmit"]').textContent = t.formSubmit;
   document.querySelector('[data-i18n="formDisclaimer"]').textContent = t.formDisclaimer;
+  document.querySelectorAll("#partner-form option[data-i18n]").forEach(option => {
+  const key = option.dataset.i18n;
+  if (t[key] !== undefined) {
+    option.textContent = t[key];
+  }
+});
 
   document.querySelectorAll("[data-i18n-placeholder]").forEach(el => {
     el.placeholder = t[el.dataset.i18nPlaceholder];
