@@ -107,7 +107,17 @@ const translations = {
     optionSEO: "Website / SEO",
     optionSocial: "Instagram / social media",
     optionPaid: "Paid media",
-    optionOther: "Other"
+    optionOther: "Other",
+    aboutTitle: "ABOUT THIS PLATFORM",
+aboutHeading: "Better information.",
+aboutSubheading: "Better conversations.",
+aboutDescription: "Mega Partners Affiliate is an independent information and partner-inquiry platform. We aim to help creators and publishers understand affiliate marketing and explore relevant business conversations. Any specific operator relationship, offer, or partnership is subject to confirmation and applicable terms.",
+footerTagline: "Learn. Connect. Grow.",
+footerAbout: "About",
+footerContact: "Contact",
+footerPrivacy: "Privacy",
+footerCopyright: "Mega Partners Affiliate. All rights reserved.",
+footerDisclaimer: "Independent platform. Not an official operator website. No earnings are guaranteed."
   },
 
   fr: {
@@ -195,7 +205,17 @@ optionTelegram: "Telegram / communautés",
 optionSEO: "Site web / SEO",
 optionSocial: "Instagram / réseaux sociaux",
 optionPaid: "Publicité payante",
-optionOther: "Autre"
+optionOther: "Autre",
+aboutTitle: "À PROPOS DE CETTE PLATEFORME",
+aboutHeading: "De meilleures informations.",
+aboutSubheading: "De meilleurs échanges.",
+aboutDescription: "Mega Partners Affiliate est une plateforme indépendante d'information et de demandes de partenariat. Notre objectif est d'aider les créateurs et les éditeurs à comprendre le marketing d'affiliation et à explorer des opportunités professionnelles pertinentes. Toute relation avec un opérateur, toute offre ou tout partenariat doit être confirmé et reste soumis aux conditions applicables.",
+footerTagline: "Apprendre. Échanger. Progresser.",
+footerAbout: "À propos",
+footerContact: "Contact",
+footerPrivacy: "Confidentialité",
+footerCopyright: "Mega Partners Affiliate. Tous droits réservés.",
+footerDisclaimer: "Plateforme indépendante. Ce site n'est pas un site officiel d'opérateur. Aucun gain n'est garanti."
   },
 
   ar: {
@@ -283,7 +303,17 @@ optionTelegram: "تيليغرام / المجتمعات",
 optionSEO: "موقع إلكتروني / تحسين محركات البحث",
 optionSocial: "إنستغرام / وسائل التواصل الاجتماعي",
 optionPaid: "الإعلانات المدفوعة",
-optionOther: "أخرى"
+optionOther: "أخرى",
+aboutTitle: "حول هذه المنصة",
+aboutHeading: "معلومات أفضل.",
+aboutSubheading: "تواصل أكثر فاعلية.",
+aboutDescription: "Mega Partners Affiliate منصة مستقلة للمعلومات واستفسارات الشراكة. نهدف إلى مساعدة صناع المحتوى والناشرين على فهم التسويق بالعمولة واستكشاف فرص التواصل المهني المناسبة. تخضع أي علاقة مع مشغّل أو عرض أو شراكة للتأكيد والشروط المعمول بها.",
+footerTagline: "تعلّم. تواصل. تطوّر.",
+footerAbout: "من نحن",
+footerContact: "تواصل معنا",
+footerPrivacy: "الخصوصية",
+footerCopyright: "Mega Partners Affiliate. جميع الحقوق محفوظة.",
+footerDisclaimer: "منصة مستقلة وليست موقعاً رسمياً لأي مشغّل. لا توجد أرباح مضمونة."
   },
 
   de: {
@@ -371,7 +401,17 @@ optionTelegram: "Telegram / Communities",
 optionSEO: "Website / SEO",
 optionSocial: "Instagram / soziale Medien",
 optionPaid: "Bezahlte Werbung",
-optionOther: "Sonstiges"
+optionOther: "Sonstiges",
+aboutTitle: "ÜBER DIESE PLATTFORM",
+aboutHeading: "Bessere Informationen.",
+aboutSubheading: "Bessere Gespräche.",
+aboutDescription: "Mega Partners Affiliate ist eine unabhängige Informations- und Plattform für Partnerschaftsanfragen. Wir möchten Creatorn und Publishern helfen, Affiliate-Marketing zu verstehen und passende geschäftliche Kontakte zu erkunden. Jede Beziehung zu einem Anbieter, jedes Angebot und jede Partnerschaft muss bestätigt werden und unterliegt den geltenden Bedingungen.",
+footerTagline: "Lernen. Vernetzen. Wachsen.",
+footerAbout: "Über uns",
+footerContact: "Kontakt",
+footerPrivacy: "Datenschutz",
+footerCopyright: "Mega Partners Affiliate. Alle Rechte vorbehalten.",
+footerDisclaimer: "Unabhängige Plattform. Keine offizielle Website eines Anbieters. Keine Einnahmen werden garantiert."
   }
 };
 function changeLanguage(lang) {
