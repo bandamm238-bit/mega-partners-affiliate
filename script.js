@@ -85,6 +85,19 @@ const translations = {
     academyCard3Title: "Mesurer et optimiser",
     academyCard3Text: "Familiarisez-vous avec les indicateurs utiles, les tests, la qualité de l'audience et la croissance durable.",
     academyCard3Link: "Découvrir le partenariat"
+    trafficTitle: "SOURCES DE TRAFIC",
+    trafficHeading: "Différents canaux.",
+    trafficSubheading: "Différentes opportunités.",
+    trafficDescription: "Choisissez les canaux adaptés à votre audience, votre expérience et aux exigences locales.",
+    trafficVideoTitle: "Vidéos courtes",
+    trafficVideoText: "TikTok, Reels et contenu créé par les créateurs.",
+    trafficCommunityTitle: "Communautés",
+    trafficCommunityText: "Chaînes Telegram, groupes et communautés spécialisées.",
+    trafficSeoTitle: "SEO et publication",
+    trafficSeoText: "Sites web, blogs et contenu optimisé pour les moteurs de recherche.",
+    trafficPaidTitle: "Publicité payante",
+    trafficPaidText: "Planification des campagnes, tests et optimisation responsable.",
+    trafficNote: "Vérifiez toujours les règles des plateformes, les lois locales, les exigences publicitaires et les conditions du programme partenaire avant toute promotion."
   },
 
   ar: {
@@ -111,6 +124,19 @@ const translations = {
     academyCard3Title: "القياس والتحسين",
     academyCard3Text: "تعرّف على المؤشرات المهمة والاختبارات وجودة الجمهور والنمو المستدام.",
     academyCard3Link: "اكتشف الشراكة"
+    trafficTitle: "مصادر الزيارات",
+    trafficHeading: "قنوات مختلفة.",
+    trafficSubheading: "فرص متنوعة.",
+    trafficDescription: "اختر القنوات التي تناسب جمهورك وخبرتك والمتطلبات المحلية.",
+    trafficVideoTitle: "الفيديوهات القصيرة",
+    trafficVideoText: "تيك توك وريلز ومحتوى صناع المحتوى.",
+    trafficCommunityTitle: "المجتمعات",
+    trafficCommunityText: "قنوات تيليغرام والمجموعات والمجتمعات المتخصصة.",
+    trafficSeoTitle: "تحسين محركات البحث والنشر",
+    trafficSeoText: "المواقع الإلكترونية والمدونات والمحتوى الموجه لمحركات البحث.",
+    trafficPaidTitle: "الإعلانات المدفوعة",
+    trafficPaidText: "تخطيط الحملات واختبارها وتحسينها بمسؤولية.",
+    trafficNote: "تحقق دائماً من قواعد المنصات والقوانين المحلية ومتطلبات الإعلان وشروط برنامج الشراكة المعمول بها قبل الترويج لأي عرض."
   },
 
   de: {
@@ -137,6 +163,19 @@ const translations = {
     academyCard3Title: "Messen und optimieren",
     academyCard3Text: "Lerne wichtige Kennzahlen, Tests, Zielgruppenqualität und nachhaltiges Wachstum kennen.",
     academyCard3Link: "Partnerschaft entdecken"
+    trafficTitle: "TRAFFIC-QUELLEN",
+    trafficHeading: "Verschiedene Kanäle.",
+    trafficSubheading: "Verschiedene Möglichkeiten.",
+    trafficDescription: "Wähle die Kanäle, die zu deiner Zielgruppe, Erfahrung und den lokalen Anforderungen passen.",
+    trafficVideoTitle: "Kurzvideos",
+    trafficVideoText: "TikTok, Reels und Inhalte von Creatorn.",
+    trafficCommunityTitle: "Communities",
+    trafficCommunityText: "Telegram-Kanäle, Gruppen und spezialisierte Communities.",
+    trafficSeoTitle: "SEO und Publishing",
+    trafficSeoText: "Websites, Blogs und suchmaschinenorientierte Inhalte.",
+    trafficPaidTitle: "Bezahlte Werbung",
+    trafficPaidText: "Kampagnenplanung, Tests und verantwortungsvolle Optimierung.",
+    trafficNote: "Prüfe vor jeder Bewerbung eines Angebots stets die Plattformregeln, lokalen Gesetze, Werbeanforderungen und geltenden Partnerprogramm-Bedingungen."
   }
 };
 function changeLanguage(lang) {
