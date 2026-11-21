@@ -46,6 +46,19 @@ const translations = {
     academyCard3Title: "Measure and optimize",
     academyCard3Text: "Get familiar with useful metrics, testing, audience quality, and sustainable growth.",
     academyCard3Link: "Explore partnership"
+    trafficTitle: "TRAFFIC SOURCES",
+    trafficHeading: "Different channels.",
+    trafficSubheading: "Different opportunities.",
+    trafficDescription: "Choose the channels that match your audience, experience, and local requirements.",
+    trafficVideoTitle: "Short-form video",
+    trafficVideoText: "TikTok, Reels, and creator-led content.",
+    trafficCommunityTitle: "Communities",
+    trafficCommunityText: "Telegram channels, groups, and niche communities.",
+    trafficSeoTitle: "SEO & publishing",
+    trafficSeoText: "Websites, blogs, and search-led content.",
+    trafficPaidTitle: "Paid media",
+    trafficPaidText: "Campaign planning, testing, and responsible optimization.",
+    trafficNote: "Always check platform rules, local laws, advertising requirements, and the applicable partner-program terms before promoting any offer."
   },
 
   fr: {
