@@ -45,7 +45,7 @@ const translations = {
     academyCard3Kicker: "03 / IMPROVE",
     academyCard3Title: "Measure and optimize",
     academyCard3Text: "Get familiar with useful metrics, testing, audience quality, and sustainable growth.",
-    academyCard3Link: "Explore partnership"
+    academyCard3Link: "Explore partnership",
     trafficTitle: "TRAFFIC SOURCES",
     trafficHeading: "Different channels.",
     trafficSubheading: "Different opportunities.",
@@ -84,7 +84,7 @@ const translations = {
     academyCard3Kicker: "03 / OPTIMISER",
     academyCard3Title: "Mesurer et optimiser",
     academyCard3Text: "Familiarisez-vous avec les indicateurs utiles, les tests, la qualité de l'audience et la croissance durable.",
-    academyCard3Link: "Découvrir le partenariat"
+    academyCard3Link: "Découvrir le partenariat",
     trafficTitle: "SOURCES DE TRAFIC",
     trafficHeading: "Différents canaux.",
     trafficSubheading: "Différentes opportunités.",
@@ -123,7 +123,7 @@ const translations = {
     academyCard3Kicker: "03 / حسّن",
     academyCard3Title: "القياس والتحسين",
     academyCard3Text: "تعرّف على المؤشرات المهمة والاختبارات وجودة الجمهور والنمو المستدام.",
-    academyCard3Link: "اكتشف الشراكة"
+    academyCard3Link: "اكتشف الشراكة",
     trafficTitle: "مصادر الزيارات",
     trafficHeading: "قنوات مختلفة.",
     trafficSubheading: "فرص متنوعة.",
@@ -162,7 +162,7 @@ const translations = {
     academyCard3Kicker: "03 / VERBESSERN",
     academyCard3Title: "Messen und optimieren",
     academyCard3Text: "Lerne wichtige Kennzahlen, Tests, Zielgruppenqualität und nachhaltiges Wachstum kennen.",
-    academyCard3Link: "Partnerschaft entdecken"
+    academyCard3Link: "Partnerschaft entdecken",
     trafficTitle: "TRAFFIC-QUELLEN",
     trafficHeading: "Verschiedene Kanäle.",
     trafficSubheading: "Verschiedene Möglichkeiten.",
