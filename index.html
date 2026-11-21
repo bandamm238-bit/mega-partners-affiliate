@@ -186,27 +186,76 @@
   </div>
 </section>
     <section class="apply-section" id="apply">
-      <div class="apply-copy">
-        <p class="eyebrow">LET'S START A CONVERSATION</p>
-        <h2>Tell us about<br>your audience.</h2>
-        <p>Share a few details about your experience and traffic sources. We can then understand your goals and discuss possible next steps.</p>
-        <div class="apply-points"><span>✓ No guaranteed earnings claims</span><span>✓ Clear, relevant information</span><span>✓ Reviewed for partnership fit</span></div>
-      </div>
-      <form class="apply-form" id="partner-form">
-        <div class="form-heading"><h3>Partner inquiry</h3><p>Fields marked * are required.</p></div>
-        <label>Full name *<input name="name" required placeholder="Your name"></label>
-        <label>Email or preferred contact *<input name="contact" required placeholder="Email, Telegram, or other contact"></label>
-        <div class="form-row">
-          <label>Country *<input name="country" required placeholder="Your country"></label>
-          <label>Experience *<select name="experience" required><option value="">Select one</option><option>Just getting started</option><option>Some experience</option><option>Experienced affiliate</option></select></label>
-        </div>
-        <label>Main traffic source *<select name="traffic" required><option value="">Select a channel</option><option>TikTok / short-form video</option><option>Telegram / communities</option><option>Website / SEO</option><option>Instagram / social media</option><option>Paid media</option><option>Other</option></select></label>
-        <label>Tell us about your audience<textarea name="details" rows="3" placeholder="Your channels, audience size, GEOs, and goals (optional)"></textarea></label>
-        <button class="button button-primary form-submit" type="submit">Prepare inquiry <span>→</span></button>
-        <p class="form-disclaimer">This demo form does not send or store submissions yet. A secure submission method will be connected before launch.</p>
-        <p class="form-status" id="form-status" role="status"></p>
-      </form>
-    </section>
+  <div class="apply-copy">
+    <p class="eyebrow" data-i18n="applyEyebrow">LET'S START A CONVERSATION</p>
+    <h2 data-i18n="applyHeading">Tell us about your audience.</h2>
+    <p data-i18n="applyDescription">Share a few details about your experience and traffic sources. We can then understand your goals and discuss possible next steps.</p>
+    <div class="apply-points">
+      <span data-i18n="applyPoint1">✓ No guaranteed earnings claims</span>
+      <span data-i18n="applyPoint2">✓ Clear, relevant information</span>
+      <span data-i18n="applyPoint3">✓ Reviewed for partnership fit</span>
+    </div>
+  </div>
+
+  <form class="apply-form" id="partner-form">
+    <div class="form-heading">
+      <h3 data-i18n="formHeading">Partner inquiry</h3>
+      <p data-i18n="formRequired">Fields marked * are required.</p>
+    </div>
+
+    <label>
+      <span data-i18n="formName">Full name *</span>
+      <input name="name" required data-i18n-placeholder="placeholderName" placeholder="Your name">
+    </label>
+
+    <label>
+      <span data-i18n="formContact">Email or preferred contact *</span>
+      <input name="contact" required data-i18n-placeholder="placeholderContact" placeholder="Email, Telegram, or other contact">
+    </label>
+
+    <div class="form-row">
+      <label>
+        <span data-i18n="formCountry">Country *</span>
+        <input name="country" required data-i18n-placeholder="placeholderCountry" placeholder="Your country">
+      </label>
+
+      <label>
+        <span data-i18n="formExperience">Experience *</span>
+        <select name="experience" required>
+          <option value="" data-i18n="optionSelect">Select one</option>
+          <option value="beginner" data-i18n="optionBeginner">Just getting started</option>
+          <option value="some" data-i18n="optionSome">Some experience</option>
+          <option value="experienced" data-i18n="optionExperienced">Experienced affiliate</option>
+        </select>
+      </label>
+    </div>
+
+    <label>
+      <span data-i18n="formTraffic">Main traffic source *</span>
+      <select name="traffic" required>
+        <option value="" data-i18n="optionChannel">Select a channel</option>
+        <option value="tiktok" data-i18n="optionTikTok">TikTok / short-form video</option>
+        <option value="telegram" data-i18n="optionTelegram">Telegram / communities</option>
+        <option value="seo" data-i18n="optionSEO">Website / SEO</option>
+        <option value="social" data-i18n="optionSocial">Instagram / social media</option>
+        <option value="paid" data-i18n="optionPaid">Paid media</option>
+        <option value="other" data-i18n="optionOther">Other</option>
+      </select>
+    </label>
+
+    <label>
+      <span data-i18n="formDetails">Tell us about your audience</span>
+      <textarea name="details" rows="3" data-i18n-placeholder="placeholderDetails" placeholder="Your channels, audience size, GEOs, and goals (optional)"></textarea>
+    </label>
+
+    <button class="button button-primary form-submit" type="submit">
+      <span data-i18n="formSubmit">Prepare inquiry</span> <span>→</span>
+    </button>
+
+    <p class="form-disclaimer" data-i18n="formDisclaimer">This demo form does not send or store submissions yet. A secure submission method will be connected before launch.</p>
+    <p class="form-status" id="form-status" role="status"></p>
+  </form>
+</section>
 
     <section class="section about-section" id="about">
       <div><p class="eyebrow">ABOUT THIS PLATFORM</p><h2>Better information.<br><span class="muted">Better conversations.</span></h2></div>
