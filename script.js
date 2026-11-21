@@ -502,6 +502,17 @@ function changeLanguage(lang) {
   document.querySelectorAll("[data-i18n-placeholder]").forEach(el => {
     el.placeholder = t[el.dataset.i18nPlaceholder];
   });
+  document.querySelector('[data-i18n="aboutTitle"]').textContent = t.aboutTitle;
+  document.querySelector('[data-i18n="aboutHeading"]').textContent = t.aboutHeading;
+  document.querySelector('[data-i18n="aboutSubheading"]').textContent = t.aboutSubheading;
+  document.querySelector('[data-i18n="aboutDescription"]').textContent = t.aboutDescription;
+
+  document.querySelector('[data-i18n="footerTagline"]').textContent = t.footerTagline;
+  document.querySelector('[data-i18n="footerAbout"]').textContent = t.footerAbout;
+  document.querySelector('[data-i18n="footerContact"]').textContent = t.footerContact;
+  document.querySelector('[data-i18n="footerPrivacy"]').textContent = t.footerPrivacy;
+  document.querySelector('[data-i18n="footerCopyright"]').textContent = t.footerCopyright;
+  document.querySelector('[data-i18n="footerDisclaimer"]').textContent = t.footerDisclaimer;
   localStorage.setItem("siteLanguage", lang);
 }
 
